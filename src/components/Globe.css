@@ -1,0 +1,28 @@
+/*Make default values to zero*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Implementing the CSS Property for UI*/
+.GlobeContainer {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GlobeCanvas {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
