@@ -74,7 +74,7 @@ button {
     justify-content: space-between;
     flex:1;
     width: -webkit-fill-available;
-    gap: 20px;
+    row-gap: 20px;
     column-gap: 54vw;
     flex-wrap: wrap;
 }
